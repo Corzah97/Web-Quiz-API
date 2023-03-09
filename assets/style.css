@@ -77,3 +77,36 @@
 .scores_attained .input_box{
     margin-right: 10px;
 }
+
+/* View 3 (Highscores) */
+
+.view3 {
+    position: absolute;
+    width: 40%;
+}
+
+.scores_with_name_background_color {
+    background-color: indianred;
+    border-radius: 2%;
+}
+
+.view3 .scores_with_name {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.highscores_buttons {
+    display: flex;
+}
+
+.time_interval {
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time {
+    margin-right: 5px;
+}
