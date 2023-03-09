@@ -1,0 +1,46 @@
+.active{
+    display: block;
+}
+.block{
+    display: none;
+}
+
+.start_btn .btn_properties{
+    font-size: large;
+    border-radius: 7%;
+    border-width: 1px;
+    color: whitesmoke;
+    background-color: blue;
+    min-width: calc(20%);
+    display: flex;
+}
+
+/* Time Check  */
+
+.time_check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Main Page (View 0) */
+
+.views_styling_center{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.view0 .children{
+    display: flex;
+    justify-content: center;
+}
+
+.view0 .intro_lines{
+    margin: 5px 10px;
+}
+
+.view0 .start_btn{
+    position: relative;
+    top: 15px;
+}
