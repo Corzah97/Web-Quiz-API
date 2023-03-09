@@ -10,7 +10,7 @@
     border-radius: 7%;
     border-width: 1px;
     color: whitesmoke;
-    background-color: blue;
+    background-color: rgb(255, 106, 0);
     min-width: calc(20%);
     display: flex;
 }
@@ -53,4 +53,27 @@
 
 .view0, .q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .view1, .view2, .view3, .view4{
     position: absolute;
+}
+
+/* View 2 (All Pages) */
+
+.view2 {
+    position: absolute;
+}
+
+.view2 .intro_lines{
+    margin: 5px 0;
+}
+
+.scores_attained{
+    display: flex;
+    align-items: center;
+}
+
+.scores_attained .name{
+    margin-right: 5px;
+}
+
+.scores_attained .input_box{
+    margin-right: 10px;
 }
