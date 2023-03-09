@@ -5,7 +5,7 @@
     display: none;
 }
 
-.start_btn .btn_properties{
+.start_btn .button_properties{
     font-size: large;
     border-radius: 7%;
     border-width: 1px;
@@ -43,4 +43,14 @@
 .view0 .start_btn{
     position: relative;
     top: 15px;
+}
+
+/* View 1 (Questions) */
+
+.options{
+    margin: 5px 2px;
+}
+
+.view0, .q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .view1, .view2, .view3, .view4{
+    position: absolute;
 }
