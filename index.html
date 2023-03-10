@@ -230,7 +230,13 @@
         <h2 class="heading">Congratulations! You Completed The Quiz </h2>
 
         <div class="options start_button">
-            <p class="name children_intro_lines"> Enter Your Name </p>
+            <p class="children intro_lines">Your final score is <span id="totalScore"></span> </p>
+        </div>
+
+        <div class="scores_attained">
+
+            <input name="inputName" id="corey" type="text" placeholder="e.g: Corey">
+
         </div>
 
         <div class="input_box">
@@ -238,7 +244,7 @@
         </div>
 
         <div class="options start_button">
-            <button class="button_properties">Submit</button>
+            <button onclick="selectOption(this.id)" id="view2_submit_btn" class="button_properties">Submit</button>
         </div>
     
     </div>
@@ -248,18 +254,18 @@
     <div class="view3 block">
 
         <h1 class="heading"> High Scores </h1>
-        <div class="scores_with_name_background_color">
-            <p class="scores_with_name"> 1. Corey - 100 </p>
+        <div id= "pepsi" class="scores_with_name_background_color">
+            <p class="scores_with_name">1. <span id="passedName"></span> - <span id="scoreAndName"></p>
         </div>
 
         <div class="high_scores_button">
 
             <div class="options start_button">
-                <button class="button_properties"> Would You Like To Try Again! Click Here To Return </button>
+                <button onclick="selectOption(this.id)" id="view3_goBack_btn" class="button_properties"> Would You Like To Try Again! Click Here To Return </button>
             </div>
 
             <div class="options start_button">
-                <button class="button_properties"> Clear High Scores </button>
+                <button onclick="selectOption(this.id)" id="view3_clearScore_btn" class="button_properties"> Clear High Scores </button>
             </div>
         </div>
    
