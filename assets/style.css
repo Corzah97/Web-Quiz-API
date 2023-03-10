@@ -5,7 +5,7 @@
     display: none;
 }
 
-.start_btn .button_properties{
+.start_button .button_properties{
     font-size: large;
     border-radius: 7%;
     border-width: 1px;
@@ -40,10 +40,11 @@
     margin: 5px 10px;
 }
 
-.view0 .start_btn{
+.view0 .start_button{
     position: relative;
     top: 15px;
 }
+
 
 /* View 1 (Questions) */
 
@@ -86,7 +87,7 @@
 }
 
 .scores_with_name_background_color {
-    background-color: indianred;
+    background-color: rgb(228, 187, 133);
     border-radius: 2%;
 }
 
