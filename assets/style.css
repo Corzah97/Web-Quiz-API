@@ -1,113 +1,113 @@
 .active{
-    display: block;
+  display: block;
 }
 .block{
-    display: none;
+  display: none;
 }
 
 .start_button .button_properties{
-    font-size: large;
-    border-radius: 7%;
-    border-width: 1px;
-    color: whitesmoke;
-    background-color: rgb(255, 106, 0);
-    min-width: calc(20%);
-    display: flex;
+  font-size: large;
+  border-radius: 7%;
+  border-width: 1px;
+  color: rgb(2, 0, 0);
+  background-color: rgb(243, 247, 4);
+  min-width: calc(20%);
+  display: flex;
 }
 
 /* Time Check  */
 
 .time_check{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Main Page (View 0) */
 
 .views_styling_center{
-    position: relative;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .view0 .children{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .view0 .intro_lines{
-    margin: 5px 10px;
+  margin: 5px 10px;
 }
 
 .view0 .start_button{
-    position: relative;
-    top: 15px;
+  position: relative;
+  top: 15px;
 }
 
 
 /* View 1 (Questions) */
 
 .options{
-    margin: 5px 2px;
+  margin: 8px 4px;
 }
 
 .view0, .q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .view1, .view2, .view3, .view4{
-    position: absolute;
+  position: absolute;
 }
 
 /* View 2 (All Pages) */
 
 .view2 {
-    position: absolute;
+  position: absolute;
 }
 
 .view2 .intro_lines{
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .scores_attained{
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .scores_attained .name{
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .scores_attained .input_box{
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 /* View 3 (Highscores) */
 
 .view3 {
-    position: absolute;
-    width: 40%;
+  position: absolute;
+  width: 40%;
 }
 
 .scores_with_name_background_color {
-    background-color: rgb(228, 187, 133);
-    border-radius: 2%;
+  background-color: rgb(223, 223, 24);
+  border-radius: 2%;
 }
 
 .view3 .scores_with_name {
-    display: flex;
-    align-items: center;
-    margin: 5px 0;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
 }
 
 .highscores_buttons {
-    display: flex;
+  display: flex;
 }
 
 .time_interval {
-    height: 17px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .time {
-    margin-right: 5px;
+  margin-right: 5px;
 }
