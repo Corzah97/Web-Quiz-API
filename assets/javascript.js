@@ -43,7 +43,7 @@ function selectOption(id) {
                 let q1 = document.getElementById("q1");
                 q1.style.display = "none";
 
-                let finished = document.document.querySelector(".view2");
+                let finished = document.querySelector(".view2");
                 finished.style.display = "block";
             } else {
                 score += 10;
@@ -1072,11 +1072,11 @@ function selectOption(id) {
 
 
         case "view3_clearScore_btn":
-            var view4 = document.querySelector("view4");
+            var view4 = document.getElementById("pepsi");
             // q1.classList.toggle("block");
             view4.style.display = "none";
 
-            const element = document.querySelector("view4");
+            const element = document.getElementById("pepsi");
             element.remove(); // Removes the div with the 'div-02' id
 
 
