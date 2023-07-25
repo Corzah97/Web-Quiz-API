@@ -43,7 +43,7 @@ function selectOption(id) {
                 let q1 = document.getElementById("q1");
                 q1.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             } else {
                 score += 10;
@@ -73,7 +73,7 @@ function selectOption(id) {
                 var q1 = document.getElementById("q1");
                 q1.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -106,7 +106,7 @@ function selectOption(id) {
                 let q1 = document.getElementById("q1");
                 q1.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -139,7 +139,7 @@ function selectOption(id) {
                 let q1 = document.getElementById("q1");
                 q1.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -174,7 +174,7 @@ function selectOption(id) {
                 let q2 = document.getElementById("q2");
                 q2.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -207,7 +207,7 @@ function selectOption(id) {
                 let q2 = document.getElementById("q2");
                 q2.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -240,7 +240,7 @@ function selectOption(id) {
                 let q2 = document.getElementById("q2");
                 q2.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             } else {
                 score += 10;
@@ -272,7 +272,7 @@ function selectOption(id) {
                 let q2 = document.getElementById("q2");
                 q2.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -301,7 +301,7 @@ function selectOption(id) {
                 let q3 = document.getElementById("q3");
                 q3.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
             if (timeleft > 0) {
@@ -331,7 +331,7 @@ function selectOption(id) {
                 let q3 = document.getElementById("q3");
                 q3.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -363,7 +363,7 @@ function selectOption(id) {
                 let q3 = document.getElementById("q3");
                 q3.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             } else {
                 score += 10;
@@ -393,7 +393,7 @@ function selectOption(id) {
                 let q3 = document.getElementById("q3");
                 q3.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -426,7 +426,7 @@ function selectOption(id) {
                 let q4 = document.getElementById("q4");
                 q4.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
             if (timeleft > 0) {
@@ -455,7 +455,7 @@ function selectOption(id) {
                 let q4 = document.getElementById("q4");
                 q4.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             } else {
                 score += 10;
@@ -482,7 +482,7 @@ function selectOption(id) {
                 let q4 = document.getElementById("q4");
                 q4.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -513,7 +513,7 @@ function selectOption(id) {
                 let q4 = document.getElementById("q4");
                 q4.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
             if (timeleft > 0) {
@@ -547,7 +547,7 @@ function selectOption(id) {
                 let q5 = document.getElementById("q5");
                 q5.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -577,7 +577,7 @@ function selectOption(id) {
                 let q5 = document.getElementById("q5");
                 q5.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             } else {
                 score += 10
@@ -605,7 +605,7 @@ function selectOption(id) {
                 let q5 = document.getElementById("q5");
                 q5.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -637,7 +637,7 @@ function selectOption(id) {
                 let q5 = document.getElementById("q5");
                 q5.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -672,7 +672,7 @@ function selectOption(id) {
                 let q6 = document.getElementById("q6");
                 q6.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
             if (timeleft > 0) {
@@ -701,7 +701,7 @@ function selectOption(id) {
                 let q6 = document.getElementById("q6");
                 q6.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             } else {
                 score += 10;
@@ -752,7 +752,7 @@ function selectOption(id) {
                 let q6 = document.getElementById("q6");
                 q6.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -786,7 +786,7 @@ function selectOption(id) {
                 let q7 = document.getElementById("q7");
                 q7.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -817,7 +817,7 @@ function selectOption(id) {
                 let q7 = document.getElementById("q7");
                 q7.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
             if (timeleft > 0) {
@@ -846,7 +846,7 @@ function selectOption(id) {
                 let q7 = document.getElementById("q7");
                 q7.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             } else {
                 score += 10;
@@ -874,7 +874,7 @@ function selectOption(id) {
                 let q7 = document.getElementById("q7");
                 q7.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -908,7 +908,7 @@ function selectOption(id) {
                 let q8 = document.getElementById("q8");
                 q8.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -920,7 +920,7 @@ function selectOption(id) {
             // q1.classList.toggle("block");
             q8.style.display = "none";
 
-            var view2 = document.getElementById("view2");
+            var view2 = document. querySelector(".view2");
             if (view2.style.display === "block") {
                 view2.style.display = "none";
             } else {
@@ -939,7 +939,7 @@ function selectOption(id) {
                 let q8 = document.getElementById("q8");
                 q8.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
 
@@ -951,7 +951,7 @@ function selectOption(id) {
             // q1.classList.toggle("block");
             q8.style.display = "none";
 
-            var view2 = document.getElementById("view2");
+            var view2 = document. querySelector(".view2");
             if (view2.style.display === "block") {
                 view2.style.display = "none";
             } else {
@@ -968,7 +968,7 @@ function selectOption(id) {
                     let q8 = document.getElementById("q8");
                     q8.style.display = "none";
     
-                    let finished = document.getElementById("view2");
+                    let finished = document.document.querySelector(".view2");
                     finished.style.display = "block";
                 } else {
                     score += 10;
@@ -977,7 +977,7 @@ function selectOption(id) {
                     // q5.classList.toggle("block");
                     q8.style.display = "none";
     
-                    var view2 = document.getElementById("view2");
+                    var view2 = document. querySelector(".view2");
                     if (view2.style.display === "block") {
                         view2.style.display = "none";
                     } else {
@@ -1000,7 +1000,7 @@ function selectOption(id) {
                 let q8 = document.getElementById("q8");
                 q8.style.display = "none";
 
-                let finished = document.getElementById("view2");
+                let finished = document.document.querySelector(".view2");
                 finished.style.display = "block";
             }
             if (timeleft > 0) {
@@ -1011,7 +1011,7 @@ function selectOption(id) {
             // q1.classList.toggle("block");
             q8.style.display = "none";
 
-            var view2 = document.getElementById("view2");
+            var view2 = document. querySelector(".view2");
             if (view2.style.display === "block") {
                 view2.style.display = "none";
             } else {
@@ -1026,7 +1026,7 @@ function selectOption(id) {
         // -------------------------------------------------------------------
 
         case "view2_submit_btn":
-            var view2 = document.getElementById("view2");
+            var view2 = document. querySelector(".view2");
             // q1.classList.toggle("block");
             view2.style.display = "none";
 
@@ -1050,11 +1050,11 @@ function selectOption(id) {
         case "view3_goBack_btn":
             score = 0;
 
-            var view3 = document.getElementById("view3");
+            var view3 = document. querySelector("view3");
             // q1.classList.toggle("block");
             view3.style.display = "none";
 
-            var view1 = document.getElementById("view1");
+            var view1 = document. querySelector("view1");
             if (view1.style.display === "block") {
                 view1.style.display = "none";
             } else {
@@ -1072,11 +1072,11 @@ function selectOption(id) {
 
 
         case "view3_clearScore_btn":
-            var view4 = document.getElementById("pepsi");
+            var view4 = document.querySelector("view4");
             // q1.classList.toggle("block");
             view4.style.display = "none";
 
-            const element = document.getElementById("pepsi");
+            const element = document.querySelector("view4");
             element.remove(); // Removes the div with the 'div-02' id
 
 
