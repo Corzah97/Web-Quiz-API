@@ -1050,11 +1050,11 @@ function selectOption(id) {
         case "view3_goBack_btn":
             score = 0;
 
-            var view3 = document. querySelector("view3");
+            var view3 = document.querySelector("view3");
             // q1.classList.toggle("block");
             view3.style.display = "none";
 
-            var view1 = document. querySelector("view1");
+            var view1 = document.querySelector("view1");
             if (view1.style.display === "block") {
                 view1.style.display = "none";
             } else {
@@ -1063,7 +1063,7 @@ function selectOption(id) {
 
             location.reload();
 
-
+            
 
 
             break;

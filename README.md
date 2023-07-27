@@ -43,12 +43,11 @@ The Quiz website includes a multitude of features including:
 
 ![Timeup](/assets/images/Timeup.png)
 
- # Highscore List
- ![Highscore List]() 
+ ![Highscore List](/assets/images/Highscores.png) 
 
 # Website Link
 
  Link to the deployed site:
- [Javascript Coding Quiz](https://jvn101.github.io/04-Web-APIs-Code-Quiz/)
+ [Javascript Coding Quiz](https://corzah97.github.io/Homework-9-3-23/)
 
 ***
