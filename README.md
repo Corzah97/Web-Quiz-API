@@ -48,6 +48,6 @@ The Quiz website includes a multitude of features including:
 # Website Link
 
  Link to the deployed site:
- [Javascript Coding Quiz](https://corzah97.github.io/Homework-9-3-23/)
+ [Javascript Coding Quiz](https://corzah97.github.io/Web-Quiz-API/)
 
 ***
